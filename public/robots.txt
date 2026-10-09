@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /carrinho
+Disallow: /finalizar

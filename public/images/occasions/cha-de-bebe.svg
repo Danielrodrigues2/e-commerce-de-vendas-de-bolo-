@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Ilustração de bolo delicado em tons pastel para chá de bebê">
+<title>Ilustração de bolo delicado em tons pastel para chá de bebê</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3f0f6"/><stop offset="1" stop-color="#F8E7E9"/></linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.18"/><stop offset="0.35" stop-color="#000" stop-opacity="0"/><stop offset="0.75" stop-color="#fff" stop-opacity="0.08"/><stop offset="1" stop-color="#000" stop-opacity="0.2"/></linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#bg)"/>
+
+<ellipse cx="400" cy="620" rx="198" ry="16" fill="#55352F" opacity="0.10"/>
+<path d="M366,514 L378,600 L322,616 L478,616 L422,600 L434,514 Z" fill="#f1e2d9"/>
+<ellipse cx="400" cy="616" rx="78" ry="10" fill="#e6d3c8"/>
+<ellipse cx="400" cy="506" rx="220" ry="35.2" fill="#e9d8ce"/>
+<ellipse cx="400" cy="500" rx="220" ry="35.2" fill="#FFFFFF"/><path d="M240,310 L240,480 A160,38 0 0 0 560,480 L560,310 A160,38 0 0 1 240,310 Z" fill="#e9f1f6"/><path d="M240,310 L240,480 A160,38 0 0 0 560,480 L560,310 A160,38 0 0 1 240,310 Z" fill="url(#shade)" opacity="0.6"/><ellipse cx="400" cy="310" rx="160" ry="38" fill="#f4f8fb"/><g transform="translate(436.9 272.6)">
+<circle r="17" fill="#ecd0d4"/><circle r="14" cx="-1" cy="-2" fill="#f8e7e9"/>
+<path d="M-9,-2 C-8,-10 4,-12 8,-4 C11,3 2,9 -3,5 C-7,2 -4,-5 2,-3" fill="none" stroke="#ecd0d4" stroke-width="2.2" stroke-linecap="round"/></g><g transform="translate(341.8 274.5)">
+<circle r="17" fill="#ecd0d4"/><circle r="14" cx="-1" cy="-2" fill="#f8e7e9"/>
+<path d="M-9,-2 C-8,-10 4,-12 8,-4 C11,3 2,9 -3,5 C-7,2 -4,-5 2,-3" fill="none" stroke="#ecd0d4" stroke-width="2.2" stroke-linecap="round"/></g><g transform="translate(510.4 285.6)">
+<circle r="17" fill="#ecd0d4"/><circle r="14" cx="-1" cy="-2" fill="#f8e7e9"/>
+<path d="M-9,-2 C-8,-10 4,-12 8,-4 C11,3 2,9 -3,5 C-7,2 -4,-5 2,-3" fill="none" stroke="#ecd0d4" stroke-width="2.2" stroke-linecap="round"/></g><g transform="translate(280.8 290.1)">
+<circle r="17" fill="#ecd0d4"/><circle r="14" cx="-1" cy="-2" fill="#f8e7e9"/>
+<path d="M-9,-2 C-8,-10 4,-12 8,-4 C11,3 2,9 -3,5 C-7,2 -4,-5 2,-3" fill="none" stroke="#ecd0d4" stroke-width="2.2" stroke-linecap="round"/></g><g transform="translate(519.2 305.9)">
+<circle r="17" fill="#ecd0d4"/><circle r="14" cx="-1" cy="-2" fill="#f8e7e9"/>
+<path d="M-9,-2 C-8,-10 4,-12 8,-4 C11,3 2,9 -3,5 C-7,2 -4,-5 2,-3" fill="none" stroke="#ecd0d4" stroke-width="2.2" stroke-linecap="round"/></g><g transform="translate(289.6 310.4)">
+<circle r="17" fill="#ecd0d4"/><circle r="14" cx="-1" cy="-2" fill="#f8e7e9"/>
+<path d="M-9,-2 C-8,-10 4,-12 8,-4 C11,3 2,9 -3,5 C-7,2 -4,-5 2,-3" fill="none" stroke="#ecd0d4" stroke-width="2.2" stroke-linecap="round"/></g><g transform="translate(458.2 321.5)">
+<circle r="17" fill="#ecd0d4"/><circle r="14" cx="-1" cy="-2" fill="#f8e7e9"/>
+<path d="M-9,-2 C-8,-10 4,-12 8,-4 C11,3 2,9 -3,5 C-7,2 -4,-5 2,-3" fill="none" stroke="#ecd0d4" stroke-width="2.2" stroke-linecap="round"/></g><g transform="translate(363.1 323.4)">
+<circle r="17" fill="#ecd0d4"/><circle r="14" cx="-1" cy="-2" fill="#f8e7e9"/>
+<path d="M-9,-2 C-8,-10 4,-12 8,-4 C11,3 2,9 -3,5 C-7,2 -4,-5 2,-3" fill="none" stroke="#ecd0d4" stroke-width="2.2" stroke-linecap="round"/></g>
+</svg>

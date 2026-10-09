@@ -1,0 +1,79 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-blush: #f8e7e9;
+  --color-blush-deep: #f1d3d7;
+  --color-rose: #c87983;
+  /* Variação mais escura do rosa queimado para textos pequenos (contraste AA sobre branco/creme). */
+  --color-rose-ink: #9a4c57;
+  --color-cream: #fff8f0;
+  --color-choco: #55352f;
+  --color-choco-deep: #3e2622;
+  --color-choco-soft: #76574f;
+  --color-line: #ead7cf;
+
+  --font-serif: 'Cormorant Garamond Variable', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Manrope Variable', Manrope, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --shadow-soft: 0 1px 2px rgb(85 53 47 / 0.05), 0 8px 24px -12px rgb(85 53 47 / 0.18);
+  --shadow-lift: 0 2px 4px rgb(85 53 47 / 0.06), 0 18px 40px -18px rgb(85 53 47 / 0.32);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-cream font-sans text-choco antialiased;
+    font-feature-settings: 'ss01';
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-serif text-choco;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  /* Algarismos alinhados na fonte serifada (preços e números legíveis). */
+  .font-serif,
+  h1,
+  h2,
+  h3 {
+    font-feature-settings: 'lnum';
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-rose-ink);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  ::selection {
+    background: var(--color-blush-deep);
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  .eyebrow {
+    @apply text-xs font-semibold tracking-[0.18em] text-rose-ink uppercase;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
